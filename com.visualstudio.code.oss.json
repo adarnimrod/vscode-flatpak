@@ -49,6 +49,16 @@
             ]
         },
         {
+            "name": "libsecret",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://git.gnome.org/browse/libsecret/snapshot/libsecret-0.18.5.tar.xz",
+                    "sha256": "10324718e9abe47e208d6e6d05b6ea4232e1de58409bcacc9b2ced69d0496071"
+                }
+            ]
+        },
+        {
             "name": "vscode",
             "build-options": {
                 "build-args": [
