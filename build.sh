@@ -2,6 +2,9 @@
 
 set -e
 
+wget https://go.microsoft.com/fwlink/?LinkID=760868 -O vscode.deb
+ar x vscode.deb
+
 if [[ ! -d repo ]]
 then
     ostree  init --mode=archive-z2 --repo=repo

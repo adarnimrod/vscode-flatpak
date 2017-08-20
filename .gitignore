@@ -1,0 +1,6 @@
+*.deb
+*.xz
+*.gz
+.flatpak-builder/
+repo/
+debian-binary

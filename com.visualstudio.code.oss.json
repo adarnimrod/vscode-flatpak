@@ -60,6 +60,7 @@
         },
         {
             "name": "vscode",
+            "no-autogen": true,
             "build-options": {
                 "build-args": [
                     "--share=network"
@@ -87,17 +88,12 @@
             },
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/Microsoft/vscode",
-                    "tag": "1.15.0"
+                    "type": "archive",
+                    "path": "data.tar.xz"
                 },
                 {
                     "type": "file",
                     "path": "vscode/Makefile"
-                },
-                {
-                    "type": "file",
-                    "path": "common/configure"
                 }
             ]
         }
